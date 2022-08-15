@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lessonSix">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HomeWorkApp6_noEnd.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HomeWorkApp6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/HomeWorkApp6-Fix.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
