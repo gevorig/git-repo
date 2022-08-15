@@ -1,3 +1,5 @@
+package lessonOne;
+
 public class HomeWorkApp {
     public static void main(String[] args) {
         printThreeWords();

@@ -1,17 +1,18 @@
 package lessonTwo;
 
+import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 
 
 public class HomeWorkApp2 {
     public static void main(String[] args) {
-        limitSumm();
+/*        limitSumm();
         numb0();
         numRev();
-        nStr();
-        visokosny();
-//        leapYear();
+        nStr();*/
+        /*visokosny();*/
+        leapYear();
 
     }
 
@@ -52,22 +53,24 @@ public class HomeWorkApp2 {
 
     }
 
-    private static boolean visokosny() {
+/*    private static boolean visokosny() {
         int v = 2;
         System.out.println(v % 4 == 0 || v % 400 == 0 || v % 100 != 0);
             return true;
 
+    }*/
+
+    private static boolean leapYear() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("input year: ");
+        int leap = sc.nextInt();
+        if ((leap % 4 == 0 && leap % 100 != 0) || (leap % 400 == 0)){
+            System.out.println("This is leap year!");
+        } else System.out.println(leap + " no leap! ");
+        return false;
     }
 }
-//    private static boolean leapYear(int leap) {
-//        int leap = 1904;
-////        if (leap % 4  && leap % 400  || leap % 100 && leap % 400)
-//            if (leap % 400 || leap % 4){
-//            return true;
-//        }
-//
-//    }
-//с високосным годом пока не сделал, но позже думаю осилю!
+//с високосным годом доделал!
 
 
 
